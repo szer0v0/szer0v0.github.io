@@ -6,4 +6,6 @@ category: Jekyll
 layout: post
 ---
 
-This is an about page.
+Hanyang University 
+Computer science 24
+아무것두 몰라용
