@@ -1,15 +1,15 @@
 # Configurations
-title:            Jekyll Gitbook
-longtitle:        Jekyll Gitbook
-author:           HE Tao
-email:            sighingnow@gmail.com
+title:            szer0v0_blog
+longtitle:        Hello it's me
+author:           Kim Soyeong
+email:            noname1956@hanyang.ac.kr
 description: >
-  Build Jekyll site with the GitBook style.
+  푸힣힣
+cover: /assets/dinosaur.gif
 
 version:          1.0
 gitbook_version:  3.2.3
-
-url:              'https://szer0v0.github.io'
+url:              "https://szer0v0.github.io"
 baseurl:          ''
 rss:              RSS
 
@@ -19,7 +19,7 @@ rss:              RSS
 toc:
   enabled: true
   h_min:   1
-  h_max:   3
+  h_max:   4
 
 # customize the link favicon in header, will be {{site.baseurl}}/{{site.favicon_path}}
 favicon_path:     /assets/gitbook/images/favicon.ico
@@ -56,9 +56,13 @@ collections:
   others:
     output: true
     permalink: /:collection/:path/
+  guideline:
+    output: true
+    permalink: /:collection/:path/
 
 ordered_collections:
   - posts
+  - guideline
   - pages
   - others
 
