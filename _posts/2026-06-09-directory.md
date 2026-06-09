@@ -1,7 +1,7 @@
 ---
 title: Directory
 author: Kim
-date: 2026-06-9
+date: 2026-06-09
 category: Jekyll
 layout: post
 cover: /assets/dinosaur.gif

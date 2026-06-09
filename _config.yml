@@ -49,10 +49,11 @@ permalink:                /:categories/:year-:month-:day-:title:output_ext
 exclude:
   - _drafts
 
+# 왼쪽 사이드바 메뉴판
 collections:
   pages:
-    output: true
-    permalink: /:collection/:path/
+    output: true # 블로그 화면에 보여주겠다 
+    permalink: /:collection/:path/ # 주소창에 찍힐 링크
   others:
     output: true
     permalink: /:collection/:path/
